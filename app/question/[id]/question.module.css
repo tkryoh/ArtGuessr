@@ -1,12 +1,16 @@
 
 .container {
   width: 1200px;
+  background-color: white;
   margin: 0 auto;
+  padding-bottom: 30px;
 }
 
 .title {
   margin: 20px;
+  padding: 20px 0 0;
   text-align: center;
+  font-size: 40px;
 }
 
 .content {
@@ -24,5 +28,20 @@
 
 .artImage {
   width: auto;
+  height: 100%;
+}
+
+.btn {
+  border: 1px solid gray;
+  width: 300px;
+  height: 50px;
+  margin: 30px auto;
+}
+
+.btnLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   height: 100%;
 }
